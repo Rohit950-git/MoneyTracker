@@ -1,0 +1,556 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "rohit",
+      "email": "bhatiarohit434@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "name": "Quinn Hayden",
+      "email": "meja@mailinator.com",
+      "password": "654321"
+    },
+    {
+      "id": "3",
+      "name": "Wesley Wilkerson",
+      "email": "norupa@mailinator.com",
+      "password": "Pa$$w0rd!"
+    },
+    {
+      "id": "4",
+      "name": "Akeem Rivas",
+      "email": "kehicot@mailinator.com",
+      "password": "101010"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "ac76",
+      "title": "Cupiditate dicta sit",
+      "category": "Food",
+      "amount": 8,
+      "date": "1971-03-25",
+      "userId": "1753247558463"
+    },
+    {
+      "title": "Consequuntur ratione",
+      "category": "Rent",
+      "amount": 66,
+      "date": "2008-07-31",
+      "userId": "1753247558463",
+      "id": "5d8f"
+    },
+    {
+      "id": "cd1a",
+      "title": "Nostrum voluptatibus",
+      "category": "Shopping",
+      "amount": 44,
+      "date": "2023-10-25",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "08cd",
+      "title": "In atque optio a ex",
+      "category": "Bills",
+      "amount": 15,
+      "date": "1993-11-14",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "2d1d",
+      "title": "Odio adipisci quia q",
+      "category": "Transport",
+      "amount": 35,
+      "date": "2010-09-07",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "066e",
+      "title": "Laudantium aut cons",
+      "category": "Shopping",
+      "amount": 9,
+      "date": "2009-04-23",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "ba27",
+      "title": "Magnam reiciendis el",
+      "category": "Shopping",
+      "amount": 23,
+      "date": "2025-07-23",
+      "userId": "1753340298465"
+    },
+    {
+      "title": "Omnis eligendi in mo",
+      "category": "Bills",
+      "amount": 40,
+      "date": "2025-07-26",
+      "userId": "1753340298465",
+      "id": "b817"
+    },
+    {
+      "id": "f85b",
+      "title": "Exercitation quis do",
+      "category": "Food",
+      "amount": 68,
+      "date": "2025-07-24",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "d2b7",
+      "title": "Eaque fugiat explica",
+      "category": "Bills",
+      "amount": 85,
+      "date": "2025-07-27",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "c0ad",
+      "title": "Non perferendis et o",
+      "category": "Food",
+      "amount": 4,
+      "date": "2004-12-25",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "c567",
+      "title": "Dolor veniam dolore",
+      "category": "Food",
+      "amount": 1000,
+      "date": "2025-07-31",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "5b7d",
+      "userId": "2",
+      "category": "Transfer",
+      "amount": 94,
+      "date": "2025-08-05",
+      "note": "Money sent to Morgan Morton"
+    },
+    {
+      "id": "ab36",
+      "userId": "1",
+      "category": "Transfer",
+      "amount": 51,
+      "date": "2025-08-05",
+      "note": "Money sent to Sandra Delgado"
+    },
+    {
+      "id": "65d0",
+      "userId": "2",
+      "category": "Transfer",
+      "amount": 47,
+      "date": "2025-08-06",
+      "note": "Money sent to Rhiannon Osborn"
+    },
+    {
+      "id": "6a00",
+      "title": "Est nihil optio de",
+      "category": "Bills",
+      "amount": 500,
+      "date": "2025-08-06",
+      "userId": "2"
+    },
+    {
+      "id": "785f",
+      "title": "Dolores omnis ullam ",
+      "category": "Rent",
+      "amount": 430,
+      "date": "2025-08-06",
+      "userId": "2"
+    },
+    {
+      "id": "4c9a",
+      "title": "Est culpa in eaque i",
+      "category": "Shopping",
+      "amount": 62000,
+      "date": "2025-08-06",
+      "userId": "1"
+    },
+    {
+      "id": "6091",
+      "title": "Error ea aut volupta",
+      "category": "Shopping",
+      "amount": 86000,
+      "date": "2025-08-06",
+      "userId": "1"
+    },
+    {
+      "id": "2198",
+      "userId": "1",
+      "category": "Transfer",
+      "amount": 75,
+      "date": "2025-08-06",
+      "note": "Money sent to Ima Bell"
+    },
+    {
+      "id": "319d",
+      "userId": "1",
+      "category": "Transfer",
+      "amount": 90000,
+      "date": "2025-08-06",
+      "note": "Money sent to Kirby Holden"
+    },
+    {
+      "id": "7a67",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:19:06.717Z"
+    },
+    {
+      "id": "fec2",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:19:10.140Z"
+    },
+    {
+      "id": "c072",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:19:10.995Z"
+    },
+    {
+      "id": "4325",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:19:11.587Z"
+    },
+    {
+      "id": "f738",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:19:12.450Z"
+    },
+    {
+      "id": "ef73",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:19:50.579Z"
+    },
+    {
+      "id": "b41d",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:19:53.548Z"
+    }
+  ],
+  "incomes": [
+    {
+      "id": "774d",
+      "title": "In blanditiis",
+      "category": "Salary",
+      "amount": 86,
+      "date": "1982-07-23",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "a77e",
+      "title": "Laboriosam officiis",
+      "category": "Freelance",
+      "amount": 65,
+      "date": "2025-07-26",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "453e",
+      "title": "Et tempora magna qui",
+      "category": "Gift",
+      "amount": 88,
+      "date": "2025-07-28",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "fe29",
+      "title": "Quo quisquam et ea a",
+      "category": "Freelance",
+      "amount": 54,
+      "date": "2025-07-29",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "fe9c",
+      "title": "Deserunt eligendi et",
+      "category": "Gift",
+      "amount": 510,
+      "date": "2025-07-28",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "7703",
+      "title": "Labore nulla volupta",
+      "category": "Salary",
+      "amount": 53,
+      "date": "2025-07-27",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "85b7",
+      "title": "Obcaecati est deser",
+      "category": "Gift",
+      "amount": "40",
+      "date": "2025-07-26",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "1534",
+      "title": "Dolores rerum labori",
+      "category": "Salary",
+      "amount": "550 ",
+      "date": "2025-07-25",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "ee5f",
+      "title": "Fugiat nostrum dolo",
+      "category": "Freelance",
+      "amount": "55",
+      "date": "2025-07-25",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "0833",
+      "title": "Velit illo proident",
+      "category": "Freelance",
+      "amount": "100",
+      "date": "2025-07-24",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "cdee",
+      "title": "Voluptate laboris ex",
+      "category": "Freelance",
+      "amount": 86,
+      "date": "2025-07-29",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "6994",
+      "title": "Sunt lorem error eni",
+      "category": "Freelance",
+      "amount": 48,
+      "date": "1984-07-28",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "d7ad",
+      "title": "Voluptatem Exceptur",
+      "category": "Gift",
+      "amount": 76,
+      "date": "2016-02-03",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "ad7e",
+      "title": "Consequatur Tenetur",
+      "category": "Freelance",
+      "amount": 19,
+      "date": "2014-07-31",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "0eed",
+      "title": "Obcaecati perspiciat",
+      "category": "Gift",
+      "amount": 96,
+      "date": "1979-08-11",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "53e3",
+      "title": "Cum inventore in par",
+      "category": "Freelance",
+      "amount": 65,
+      "date": "2025-07-30",
+      "userId": "1753247558463"
+    },
+    {
+      "id": "84c7",
+      "title": "Perspiciatis asperi",
+      "category": "Gift",
+      "amount": 1000,
+      "date": "2025-07-31",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "b636",
+      "title": "Quibusdam culpa nec",
+      "category": "Freelance",
+      "amount": 1000,
+      "date": "2025-07-31",
+      "userId": "1753340298465"
+    },
+    {
+      "id": "10c2",
+      "title": "Dolor id non qui ar",
+      "category": "Freelance",
+      "amount": 5600,
+      "date": "2025-07-31",
+      "userId": "1"
+    },
+    {
+      "id": "6837",
+      "title": "Iure non quod debiti",
+      "category": "Gift",
+      "amount": 4900,
+      "date": "2025-07-31",
+      "userId": "1"
+    },
+    {
+      "id": "23b3",
+      "title": "hl",
+      "category": "Salary",
+      "amount": 5000,
+      "date": "2025-07-31",
+      "userId": "1"
+    },
+    {
+      "id": "710f",
+      "title": "Eos sit nesciunt l",
+      "category": "Freelance",
+      "amount": 14000,
+      "date": "2025-08-05",
+      "userId": "1"
+    },
+    {
+      "id": "5f1e",
+      "title": "Hic dolor fugiat vel",
+      "category": "Freelance",
+      "amount": 41000,
+      "date": "2025-08-05",
+      "userId": "1"
+    },
+    {
+      "id": "3667",
+      "title": "Sit aut ut ad qui qu",
+      "category": "Freelance",
+      "amount": 100000,
+      "date": "2025-08-05",
+      "userId": "1"
+    },
+    {
+      "id": "8304",
+      "title": "Amet deserunt in do",
+      "category": "Salary",
+      "amount": 760000,
+      "date": "2025-08-05",
+      "userId": "1"
+    },
+    {
+      "id": "c37c",
+      "title": "Deleniti sunt omnis ",
+      "category": "Salary",
+      "amount": 490000,
+      "date": "2025-08-05",
+      "userId": "2"
+    },
+    {
+      "id": "9344",
+      "title": "Incidunt lorem labo",
+      "category": "Freelance",
+      "amount": 220000,
+      "date": "2025-08-06",
+      "userId": "2"
+    },
+    {
+      "id": "e053",
+      "title": "Sed culpa ea sunt ",
+      "category": "Gift",
+      "amount": 83000,
+      "date": "2025-08-06",
+      "userId": "2"
+    }
+  ],
+  "loans": [
+    {
+      "id": "b7e4",
+      "amount": 5000,
+      "interest": 5,
+      "startDate": "2025-08-01",
+      "endDate": "2025-12-06",
+      "category": "home ",
+      "Emi": "1263.05",
+      "date": "2025-08-06"
+    },
+    {
+      "id": "4372",
+      "amount": 140000,
+      "interest": 5,
+      "startDate": "1994-07-10",
+      "endDate": "2025-02-06",
+      "category": "Non consectetur mini",
+      "Emi": "745.38",
+      "date": "2025-08-06"
+    },
+    {
+      "id": "a17f",
+      "amount": 47,
+      "interest": 70,
+      "startDate": "2021-02-05",
+      "endDate": "2025-08-06",
+      "category": "Earum blanditiis ill",
+      "Emi": "2.88",
+      "date": "2025-08-06",
+      "emiPaid": 20.159999999999997
+    }
+  ],
+  "transfer": [
+    {
+      "id": "3df0",
+      "name": "Kermit Montgomery",
+      "accountNumber": "946",
+      "bankName": "Ralph Whitaker",
+      "amount": 100,
+      "userId": "1"
+    },
+    {
+      "id": "0588",
+      "name": "Alexa Craft",
+      "accountNumber": "687",
+      "bankName": "Hashim Austin",
+      "amount": 47,
+      "userId": "1"
+    },
+    {
+      "id": "b69f",
+      "name": "Morgan Morton",
+      "accountNumber": "46",
+      "bankName": "Adrian Barry",
+      "amount": 94,
+      "userId": "2"
+    },
+    {
+      "id": "07ee",
+      "name": "Rhiannon Osborn",
+      "accountNumber": "766",
+      "bankName": "Bruce Dunlap",
+      "amount": 47,
+      "userId": "2"
+    },
+    {
+      "id": "fb24",
+      "name": "Ima Bell",
+      "accountNumber": "43400",
+      "bankName": "Thomas Hendrix",
+      "amount": 75,
+      "userId": "1"
+    },
+    {
+      "id": "f03a",
+      "name": "Kirby Holden",
+      "accountNumber": "739",
+      "bankName": "Hamish Reeves",
+      "amount": 90000,
+      "userId": "1"
+    }
+  ]
+}

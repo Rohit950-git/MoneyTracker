@@ -1,0 +1,146 @@
+/* Expense Page Custom Styles */
+.expense-page-bg {
+  background: linear-gradient(135deg, #f0f8ff 60%, #e0e7ff 100%);
+  min-height: 100vh;
+  padding: 0;
+}
+
+.expense-flex-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+}
+
+.expense-form-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  min-width: 320px;
+  max-width: 370px;
+  width: 100%;
+  margin-bottom: 24px;
+  transition: box-shadow 0.2s;
+}
+.expense-form-card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.expense-btn {
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background 0.2s, transform 0.2s;
+}
+.expense-btn:hover {
+  background: #198754;
+  transform: scale(1.04);
+}
+
+.expense-list-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  min-width: 400px;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 24px;
+  transition: box-shadow 0.2s;
+}
+.expense-list-card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.expense-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+.expense-table {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+.expense-row {
+  transition: background 0.2s;
+}
+.expense-row:hover {
+  background: #e0f7fa;
+}
+.expense-action-btn {
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.expense-action-btn:hover {
+  box-shadow: 0 2px 8px rgba(25,135,84,0.15);
+  transform: scale(1.08);
+}
+.expense-total-card {
+  width: 250px;
+  background: #f6fff8;
+  border: 1px solid #d1e7dd;
+  box-shadow: 0 2px 8px rgba(25,135,84,0.08);
+}
+.expense-empty {
+  color: #888;
+  font-size: 1.1rem;
+  margin-top: 24px;
+}
+
+@media (max-width: 900px) {
+  .expense-flex-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 24px 0;
+  }
+  .expense-list-card, .expense-form-card {
+    max-width: 98vw;
+    min-width: 0;
+    padding: 20px 8px;
+  }
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}

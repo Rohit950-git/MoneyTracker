@@ -1,0 +1,9 @@
+.loan-form-card {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  transition: box-shadow 0.3s ease;
+}
+
+.loan-form-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
