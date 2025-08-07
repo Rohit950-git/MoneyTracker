@@ -82,7 +82,7 @@ const AddIncome = () => {
   const totalIncome = incomes.reduce((sum, income) => sum + Number(income.amount), 0);
 
   return (
-    <div className="container-fluid py-4" style={{ backgroundColor: '#f4f6f9', minHeight: '100vh' }}>
+    <div className="container-fluid py-" style={{ backgroundColor: '#f4f6f9', minHeight: '100vh' }}>
       <div className="row g-4">
         
         {/* Form */}

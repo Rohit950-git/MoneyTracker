@@ -242,6 +242,195 @@
       "title": "EMI for Loan #a17f",
       "amount": 2.88,
       "date": "2025-08-07T08:19:53.548Z"
+    },
+    {
+      "id": "7fe0",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:54:17.513Z"
+    },
+    {
+      "id": "90c7",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:54:20.973Z"
+    },
+    {
+      "id": "0ba1",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 2.88,
+      "date": "2025-08-07T08:54:23.582Z"
+    },
+    {
+      "id": "98a8",
+      "userId": "2",
+      "title": "EMI for Loan #b7e4",
+      "amount": 1263.05,
+      "date": "2025-08-07T08:54:36.204Z"
+    },
+    {
+      "id": "0633",
+      "userId": "2",
+      "title": "EMI for Loan #b7e4",
+      "amount": 1263.05,
+      "date": "2025-08-07T08:54:39.045Z"
+    },
+    {
+      "id": "af5e",
+      "userId": "2",
+      "title": "EMI for Loan #b7e4",
+      "amount": 1263.05,
+      "date": "2025-08-07T08:54:41.776Z"
+    },
+    {
+      "id": "b774",
+      "userId": "2",
+      "title": "EMI for Loan #4372",
+      "amount": 745.38,
+      "date": "2025-08-07T08:57:48.670Z"
+    },
+    {
+      "id": "5b4d",
+      "userId": "2",
+      "title": "EMI for Loan #4372",
+      "amount": 745.38,
+      "date": "2025-08-07T08:58:06.341Z"
+    },
+    {
+      "id": "8d3d",
+      "userId": "2",
+      "title": "EMI for Loan #4372",
+      "amount": 745.38,
+      "date": "2025-08-07T08:58:10.574Z"
+    },
+    {
+      "id": "8db6",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 3,
+      "date": "2025-08-07T09:45:53.796Z"
+    },
+    {
+      "id": "0e92",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 3,
+      "date": "2025-08-07T09:45:56.347Z"
+    },
+    {
+      "id": "2b6f",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 3,
+      "date": "2025-08-07T09:45:59.100Z"
+    },
+    {
+      "id": "d6c8",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 3,
+      "date": "2025-08-07T09:46:10.934Z"
+    },
+    {
+      "id": "3c71",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 3,
+      "date": "2025-08-07T09:46:13.380Z"
+    },
+    {
+      "id": "0f30",
+      "userId": "2",
+      "title": "EMI for Loan #a17f",
+      "amount": 3,
+      "date": "2025-08-07T09:46:15.628Z"
+    },
+    {
+      "id": "6c57",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:09.211Z"
+    },
+    {
+      "id": "8053",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:11.634Z"
+    },
+    {
+      "id": "8a31",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:14.069Z"
+    },
+    {
+      "id": "251c",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:17.324Z"
+    },
+    {
+      "id": "79af",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:19.245Z"
+    },
+    {
+      "id": "4fb3",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:20.958Z"
+    },
+    {
+      "id": "c307",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:22.724Z"
+    },
+    {
+      "id": "cc37",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:24.618Z"
+    },
+    {
+      "id": "39dd",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:26.619Z"
+    },
+    {
+      "id": "9969",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:28.676Z"
+    },
+    {
+      "id": "272f",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:31.683Z"
+    },
+    {
+      "id": "31b8",
+      "userId": "2",
+      "title": "EMI for Loan #108f",
+      "amount": 458,
+      "date": "2025-08-07T09:51:33.644Z"
     }
   ],
   "incomes": [
@@ -479,7 +668,8 @@
       "endDate": "2025-12-06",
       "category": "home ",
       "Emi": "1263.05",
-      "date": "2025-08-06"
+      "date": "2025-08-06",
+      "emiPaid": 3789.1499999999996
     },
     {
       "id": "4372",
@@ -489,7 +679,8 @@
       "endDate": "2025-02-06",
       "category": "Non consectetur mini",
       "Emi": "745.38",
-      "date": "2025-08-06"
+      "date": "2025-08-06",
+      "emiPaid": 2236.14
     },
     {
       "id": "a17f",
@@ -500,7 +691,21 @@
       "category": "Earum blanditiis ill",
       "Emi": "2.88",
       "date": "2025-08-06",
-      "emiPaid": 20.159999999999997
+      "emiPaid": 46.8
+    },
+    {
+      "id": "108f",
+      "amount": 5000,
+      "interest": 10,
+      "startDate": "2025-08-07",
+      "endDate": "2026-08-07",
+      "category": "home",
+      "Emi": 458,
+      "totalPayable": 5500,
+      "totalInterest": 500,
+      "date": "2025-08-07",
+      "userId": "2",
+      "emiPaid": 5496
     }
   ],
   "transfer": [

@@ -5,28 +5,30 @@ import axios from "axios";
 import "./addLoan.css";
 
 const URL = import.meta.env.VITE_LOAN_URL;
-const INCOME_URL = import.meta.env.VITE_INCOME_URL;
 const EXPENSE_URL = import.meta.env.VITE_EXPENSE_URL;
 
-// ✅ EMI Auto Calculator
+// ✅ EMI Auto Calculator Component
 const EmiAutoCalculator = ({ calculateEmi }) => {
   const { values, setFieldValue } = useFormikContext();
 
   useEffect(() => {
     if (values.amount && values.interest && values.startDate && values.endDate) {
-      const emi = calculateEmi(
+      const { emi, totalPayable, totalInterest } = calculateEmi(
         values.amount,
         values.interest,
         values.startDate,
         values.endDate
       );
       setFieldValue("Emi", emi);
+      setFieldValue("totalPayable", totalPayable);
+      setFieldValue("totalInterest", totalInterest);
     }
   }, [values.amount, values.interest, values.startDate, values.endDate, setFieldValue]);
 
   return null;
 };
 
+// ✅ Main Component
 const AddLoan = () => {
   const [loans, setLoans] = useState([]);
   const currentUser = JSON.parse(localStorage.getItem("currentUser"));
@@ -43,10 +45,10 @@ const AddLoan = () => {
   const handlePayEMI = async (loan) => {
     const emi = Number(loan.Emi);
     const totalPaid = Number(loan.emiPaid || 0);
-    const totalAmount = Number(loan.amount);
+    const totalPayable = Number(loan.totalPayable || 0);
 
-    if (totalPaid + emi > totalAmount) {
-      alert("❌ Cannot pay more than the loan amount.");
+    if (totalPaid + emi > totalPayable) {
+      alert("❌ Cannot pay more than the total loan amount.");
       return;
     }
 
@@ -70,22 +72,26 @@ const AddLoan = () => {
     }
   };
 
+  // ✅ New EMI Calculation Function
   const calculateEmi = (amount, interestRate, startDate, endDate) => {
     const principal = parseFloat(amount);
     const annualInterest = parseFloat(interestRate);
-    const monthlyInterest = annualInterest / 12 / 100;
 
     const months =
       (new Date(endDate).getFullYear() - new Date(startDate).getFullYear()) * 12 +
       (new Date(endDate).getMonth() - new Date(startDate).getMonth());
 
-    if (months <= 0 || isNaN(months)) return 0;
+    if (months <= 0 || isNaN(months)) return { emi: 0, totalPayable: 0, totalInterest: 0 };
 
-    const emi =
-      (principal * monthlyInterest * Math.pow(1 + monthlyInterest, months)) /
-      (Math.pow(1 + monthlyInterest, months) - 1);
+    const totalInterest = (principal * annualInterest * months) / (12 * 100);
+    const totalPayable = principal + totalInterest;
+    const emi = totalPayable / months;
 
-    return emi ? emi.toFixed(2) : 0;
+    return {
+      emi: Math.round(emi),
+      totalPayable: Math.round(totalPayable),
+      totalInterest: Math.round(totalInterest),
+    };
   };
 
   const initialValues = {
@@ -95,6 +101,8 @@ const AddLoan = () => {
     endDate: "",
     category: "",
     Emi: "",
+    totalPayable: "",
+    totalInterest: "",
     date: new Date().toISOString().split("T")[0],
     userId: currentUser.id,
     emiPaid: 0,
@@ -167,7 +175,17 @@ const AddLoan = () => {
                   </div>
                 </div>
 
-                <div className="mb-3 mt-3">
+                <div className="mt-3 mb-2">
+                  <label className="form-label">Total Interest</label>
+                  <Field type="text" name="totalInterest" className="form-control" readOnly />
+                </div>
+
+                <div className="mb-2">
+                  <label className="form-label">Total Payable</label>
+                  <Field type="text" name="totalPayable" className="form-control" readOnly />
+                </div>
+
+                <div className="mb-3">
                   <label className="form-label">Monthly EMI</label>
                   <Field type="text" name="Emi" className="form-control" readOnly />
                 </div>
@@ -191,33 +209,33 @@ const AddLoan = () => {
               <table className="table table-bordered table-hover align-middle">
                 <thead className="table-primary text-center">
                   <tr>
-                    
                     <th>Amount</th>
                     <th>Interest</th>
                     <th>Category</th>
                     <th>Start</th>
                     <th>End</th>
+                    <th>Total Payable</th>
                     <th>EMI</th>
                     <th>Paid</th>
                     <th>Action</th>
                   </tr>
                 </thead>
                 <tbody className="text-center">
-                  {loans.map((loan, index) => (
+                  {loans.map((loan) => (
                     <tr key={loan.id}>
-                    
                       <td>₹{loan.amount}</td>
                       <td>{loan.interest}%</td>
                       <td>{loan.category}</td>
                       <td>{loan.startDate}</td>
                       <td>{loan.endDate}</td>
+                      <td>₹{loan.totalPayable}</td>
                       <td>₹{loan.Emi}</td>
-                      <td>₹{loan.emiPaid || 0}</td>
+                      <td>₹{(loan.emiPaid || 0)}</td>
                       <td>
                         <button
                           className="btn btn-sm btn-outline-primary"
                           onClick={() => handlePayEMI(loan)}
-                          disabled={(loan.emiPaid || 0) >= Number(loan.amount)}
+                          disabled={Number(loan.emiPaid) >= Number(loan.totalPayable)}
                         >
                           Pay EMI
                         </button>
